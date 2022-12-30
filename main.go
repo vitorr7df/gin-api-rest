@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/vitorr7df/api-rest-golang/models"
+	"github.com/vitorr7df/gin-api-rest.git/models"
 	"github.com/vitorr7df/gin-api-rest.git/routes"
 )
 

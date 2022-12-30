@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/vitorr7df/api-rest-golang/models"
+	"github.com/vitorr7df/gin-api-rest.git/models"
 )
 
 func ExibeTodosAlunos(c *gin.Context) {
