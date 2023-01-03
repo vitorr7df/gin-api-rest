@@ -14,9 +14,10 @@ services:
   pgadmin-compose:
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: "vitor.rochadf@gmail.com"
-      PGADMIN_DEFAULT_PASSWORD: "123456"
+      PGADMIN_DEFAULT_EMAIL: "vitor@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "123456789"
     ports:
       - "54321:80"
     depends_on:
       - postgres
+
